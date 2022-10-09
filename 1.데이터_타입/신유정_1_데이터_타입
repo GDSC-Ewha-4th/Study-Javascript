@@ -76,4 +76,6 @@ data 자체를 건드린다? - 변수 영역 / property를 건드린다? - 데�
    -null: 사용자가 명시적으로 '없음'을 표현하기 위해 대입한 값
      *type of null:OBJECT!
      -> 어떤 변수의 값이 null인지 여부 판별 위해서는 typeof 대신 다른 방식으로 접근!
-   
+   *판별?
+   -동등연산자 equality operator(==); 서로 같다고 판단
+   -일치연산자 identity operator(===); 정확히 판별 가능!
